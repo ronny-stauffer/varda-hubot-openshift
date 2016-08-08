@@ -22,7 +22,8 @@
   "dependencies": {
     "hubot": "2.19.0",
     "hubot-telegram": "^0.1.2",
-    "hubot-thank-you": "0.0.3"
+    "hubot-thank-you": "0.0.3",
+	"hubot-varda-hubot-mqtt-bridge": "1.1.0
   },
   "scripts": {
     "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT bin/hubot -n shir-khan -a telegram"
